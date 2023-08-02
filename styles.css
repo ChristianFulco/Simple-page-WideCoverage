@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-top: 177px;
+}
+
+
+.link-reader {
+    width: 180pxpx;
+    height: 90px;
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 32px;
+    cursor: pointer;
+    background-color: rgb(244, 250, 242);
+    border-radius: 20px;
+}
+
+   .button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 10px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;        
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: none;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 96px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; 
+    width: 582px;
+    text-shadow: 0.1em 0.1em 0.4em black;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    width: 493px
+}
+
+.button-aside {
+    width: 200px;
+    height: 32px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    margin-top: 55px;
+    background-color: #e2fbdd;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+@media screen and (max-width: 900px){
+    .link-reader {
+        display: none;
+    }
+        main {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+       
+        section {
+        margin: 0 auto;
+        text-align: center;
+        }
+        
+        h1 {
+            width: 278px;
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: 76px;
+        }
+        
+        header {
+           margin: 0;
+        }
+        
+        .button-header {
+            width: 91px;
+            height: 31px;
+            font-size: 12px;
+            margin: 17px 15px 0 284px;
+           font-weight: 400;
+        }
+        .logo-image {
+            width: 312px;
+            height: 288px;
+            margin: 0 auto;
+           margin-top: 74px;
+        }
+        
+     p {
+        width: 304px;
+        margin: 20px 0;
+    }
+
+    }
+
+    
